@@ -20,7 +20,7 @@ var env,
     jsonSources,
     outputDir,
     sassStyle;
-
+//to set node environment variable,user NODE_ENV=production in GIT bash.
 env = process.env.NODE_ENV || 'development';
 
 if (env==='development') {
